@@ -106,12 +106,4 @@ This project is licensed for educational purposes only.
 
 ```
 
----
-
-Se quiser, posso ajustar conforme o **banco de dados real**, se você estiver usando **MySQL**, **PostgreSQL**, ou se quiser um exemplo de script no `src/`. Deseja isso também?
-
-```
-
-```
-
 ```
