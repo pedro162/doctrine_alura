@@ -1,0 +1,64 @@
+# PHP
+/vendor/
+/composer.lock
+composer.phar
+*.log
+.env
+.env.*
+.phpunit.result.cache
+.php_cs.cache
+
+# Doctrine
+/var/cache/
+/var/doctrine/
+/migrations/
+/db.sqlite
+/db.sqlite3
+*.sqlite
+*.sqlite3
+
+# Docker
+/docker-compose.override.yml
+**/.docker/
+/.dockerignore
+*.pid
+
+# Node (se houver frontend ou assets)
+/node_modules/
+/package-lock.json
+yarn.lock
+npm-debug.log
+pnpm-lock.yaml
+
+# IDEs e sistema operacional
+/.idea/
+/.vscode/
+/*.swp
+*.sublime*
+.DS_Store
+Thumbs.db
+
+# Laravel (caso use junto)
+bootstrap/cache/*
+storage/*.key
+storage/*.log
+storage/app/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Coverage reports
+coverage/
+clover.xml
+phpunit.xml
+
+# Arquivos temporários
+*.bak
+*.tmp
+*.temp

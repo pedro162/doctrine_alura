@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    container_name: doctrine_alura
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9001:80
+    volumes:
+      - .:/var/www/html/doctrine_alura
+    environment:
+      UID: ${UID:-1001}
+      GID: ${GID:-1001}
+    
+

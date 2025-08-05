@@ -1,0 +1,7 @@
+<doctrine>
+    <entity name="Message" table="message">
+        <field name="id" type="integer" />
+        <field name="text" type="140" />
+        <field name="postedAt" type="datetime" column="posted_at" />
+    </entity>
+</doctrine>
