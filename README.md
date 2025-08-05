@@ -60,8 +60,6 @@ $connection = DriverManager::getConnection([
 ], $config);
 ```
 
-If you're using another database (e.g., MySQL), update the connection settings accordingly.
-
 ### 🗃️ Doctrine CLI
 
 Run Doctrine commands via:
