@@ -33,6 +33,7 @@ Clone the repository:
 git clone https://github.com/pedro162/doctrine_alura.git
 cd doctrine_alura
 ```
+````
 
 Install dependencies:
 
@@ -102,4 +103,3 @@ Run queries or persist data in `src/script.php`.
 ## 📄 License
 
 This project is licensed for educational purposes only.
-````
