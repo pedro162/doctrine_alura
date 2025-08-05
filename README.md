@@ -103,7 +103,3 @@ Run queries or persist data in `src/script.php`.
 ## 📄 License
 
 This project is licensed for educational purposes only.
-
-```
-
-```
