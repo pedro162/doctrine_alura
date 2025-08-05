@@ -51,6 +51,15 @@ To initialize the database file (if using SQLite), run:
 touch db.sqlite
 ```
 
+To use another database (like MySQL or PostgreSQL), update the connection settings in EntityManagerCreator.php:
+
+```php
+$connection = DriverManager::getConnection([
+    'driver' => 'pdo_sqlite', // change this if needed
+    'path' => __DIR__ . '/../../db.sqlite',
+], $config);
+```
+
 If you're using another database (e.g., MySQL), update the connection settings accordingly.
 
 ### 🗃️ Doctrine CLI
