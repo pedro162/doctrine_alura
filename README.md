@@ -41,7 +41,11 @@ composer install
 
 ### ⚙️ Configuration
 
-Create a SQLite database file (or configure your own in `EntityManagerCreator.php`):
+The project includes a helper class: `src/Helper/EntityManagerCreator.php`, which is responsible for configuring and returning an instance of Doctrine's `EntityManager`.
+
+By default, it uses SQLite and attribute-based entity mapping.
+
+To initialize the database file (if using SQLite), run:
 
 ```bash
 touch db.sqlite
