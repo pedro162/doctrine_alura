@@ -1,6 +1,3 @@
-### ✅ `README.md`
-
-````markdown
 # Doctrine ORM Study Project
 
 This is a study project based on the [Alura](https://www.alura.com.br/) course for learning how to use [Doctrine ORM](https://www.doctrine-project.org/projects/orm.html) in PHP.
@@ -35,6 +32,7 @@ Clone the repository:
 git clone https://github.com/pedro162/doctrine_alura.git
 cd doctrine_alura
 ```
+
 ````
 
 Install dependencies:
@@ -105,15 +103,4 @@ Run queries or persist data in `src/script.php`.
 ## 📄 License
 
 This project is licensed for educational purposes only.
-
-```
-
----
-
-Se quiser, posso ajustar conforme o **banco de dados real**, se você estiver usando **MySQL**, **PostgreSQL**, ou se quiser um exemplo de script no `src/`. Deseja isso também?
-
-```
-
-```
-
-```
+````
