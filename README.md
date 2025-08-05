@@ -93,7 +93,7 @@ docker-compose up -d
 Generate a schema from entity annotations:
 
 ```bash
-php vendor/bin/doctrine orm:schema-tool:create
+php ./bin/doctrine orm:schema-tool:create
 ```
 
 Run queries or persist data in `src/script.php`.
