@@ -19,7 +19,7 @@ It is intended for educational purposes only.
 
 Make sure you have the following installed:
 
-- PHP >= 8.1
+- PHP >= 8.3.4
 - Composer
 - SQLite (or configure another DB)
 - Docker and Docker Compose (optional)
